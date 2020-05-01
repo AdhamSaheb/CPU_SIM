@@ -1,0 +1,69 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 223 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 61857 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2057 1 2911 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 1945 16993 19425 0 -1
+ciMethod java/lang/String hashCode ()I 2825 32769 1482 0 288
+ciMethod java/lang/String toLowerCase ()Ljava/lang/String; 1313 1 644 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 1017 1 4333 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 2025 1 8366 0 -1
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 1 1 298 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1065 1 4672 0 -1
+ciMethod java/net/URL getPort ()I 1033 1 129 0 -1
+ciMethod java/net/URL getDefaultPort ()I 377 1 47 0 -1
+ciMethod java/net/URL getProtocol ()Ljava/lang/String; 1025 1 128 0 -1
+ciMethod java/net/URL getHost ()Ljava/lang/String; 1041 1 130 0 -1
+ciMethod java/net/URL getFile ()Ljava/lang/String; 1089 1 136 0 -1
+ciMethod java/util/jar/Manifest getMainAttributes ()Ljava/util/jar/Attributes; 1025 1 128 0 -1
+ciMethod java/security/AccessController doPrivileged (Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; 2049 1 256 4 -1
+ciMethod java/util/Vector size ()I 1041 1 130 0 -1
+ciMethod java/util/Vector elementAt (I)Ljava/lang/Object; 2137 1 3113 0 -1
+ciMethod java/util/Vector removeElementAt (I)V 673 1 89 0 -1
+ciMethod java/util/Vector elementData (I)Ljava/lang/Object; 2137 1 3115 0 -1
+ciMethod java/util/Stack push (Ljava/lang/Object;)Ljava/lang/Object; 713 1 89 0 -1
+ciMethod java/util/Stack pop ()Ljava/lang/Object; 673 1 89 0 0
+ciMethod java/util/Stack peek ()Ljava/lang/Object; 681 1 90 0 -1
+ciMethod java/util/Stack empty ()Z 345 1 58 0 0
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 3073 1 8810 0 -1
+ciMethod java/util/ArrayList size ()I 1049 1 131 0 0
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 2113 1 7811 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2033 1 7749 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 3057 1 8260 0 736
+ciMethod java/util/ArrayList rangeCheck (I)V 2073 1 7811 0 0
+ciMethod sun/misc/SharedSecrets javaUtilJarAccess ()Lsun/misc/JavaUtilJarAccess; 57 1 7 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2161 1 19714 0 160
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 4097 193 11869 0 544
+ciMethod java/util/HashMap containsKey (Ljava/lang/Object;)Z 737 1 963 0 0
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2209 1 5453 0 224
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2065 321 5577 0 2720
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 153 2753 288 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 1 1 18 0 -1
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2049 1 4998 0 -1
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 1993 1 249 0 -1
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2049 1 1387 0 -1
+ciMethodData java/lang/Object <init> ()V 2 61857 orig 264 88 115 150 109 0 0 0 0 104 4 160 22 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 9 125 7 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 241 1 398 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 1425 5009 178 0 -1
+ciMethod java/net/URLStreamHandler getDefaultPort ()I 1025 1 898 0 -1
+ciMethodData java/lang/String hashCode ()I 2 19134 orig 264 88 115 150 109 0 0 0 0 40 77 160 22 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 73 35 0 0 241 213 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x278 0x78 0x1f1 0xe0007 0x3 0x58 0x1ee 0x1e0007 0x1ee 0x38 0x3aba 0x2d0003 0x3aba 0xffffffffffffffe0 oops 0
+ciMethod sun/misc/URLClassPath disableAllLookupCaches ()V 25 1 3 0 -1
+ciMethod sun/misc/URLClassPath validateLookupCache (ILjava/lang/String;)V 297 1 38 0 0
+ciMethod sun/misc/URLClassPath getNextLoader ([II)Lsun/misc/URLClassPath$Loader; 2057 1 5381 0 -1
+ciMethod sun/misc/URLClassPath getLoader (I)Lsun/misc/URLClassPath$Loader; 2057 313 5381 0 0
+ciMethod sun/misc/URLClassPath getLoader (Ljava/net/URL;)Lsun/misc/URLClassPath$Loader; 313 1 40 2 0
+ciMethod sun/misc/URLClassPath push ([Ljava/net/URL;)V 25 321 3 0 0
+ciMethod sun/net/util/URLUtil urlNoFragString (Ljava/net/URL;)Ljava/lang/String; 321 1 47 0 0
+ciMethod sun/misc/URLClassPath$3 <init> (Lsun/misc/URLClassPath;Ljava/net/URL;)V 313 1 40 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader ensureOpen ()V 505 1 1078 2 -1
+ciMethod sun/misc/URLClassPath$JarLoader getClassPath ()[Ljava/net/URL; 297 1 37 0 0
+ciMethod sun/misc/URLClassPath$JarLoader parseExtensionsDependencies ()V 57 1 7 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader parseClassPath (Ljava/net/URL;Ljava/lang/String;)[Ljava/net/URL; 0 0 1 0 -1
+ciMethod sun/misc/URLClassPath$Loader getClassPath ()[Ljava/net/URL; 9 1 1 0 -1
+ciMethod sun/misc/URLClassPath$JarLoader$1 <init> (Lsun/misc/URLClassPath$JarLoader;)V 73 1 11 0 -1
+ciMethod java/util/jar/JarFile getManifest ()Ljava/util/jar/Manifest; 1537 1 1026 0 -1
+ciMethod sun/misc/JavaUtilJarAccess jarFileHasClassPathAttribute (Ljava/util/jar/JarFile;)Z 0 0 1 0 -1
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 19714 orig 264 88 115 150 109 0 0 0 0 112 15 174 22 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 1 0 0 161 95 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x4bf4 0x38 0x0 0x50003 0x0 0x48 0x90005 0x1315 0x277b2c0 0x33da 0x18f04030 0x505 oops 2
